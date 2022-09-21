@@ -1,12 +1,12 @@
 from distutils.core import setup
 
 setup(
-    name='TowelStuff',
+    name='Real-ESRGAN',
     version='0.1.0',
-    author='J. Random Hacker',
-    author_email='jrh@example.com',
+    author='sberbank-ai',
+    author_email='x@y.com',
     scripts=['realesrgan.py','rrdbnet_arch.py', 'main.py'],
-    url='http://pypi.python.org/pypi/TowelStuff/',
-    description='Useful towel-related stuff.',
+    url='https://github.com/sberbank-ai/Real-ESRGAN',
+    description='Real-ESRGAN',
     install_requires=open('requirements.txt').read()
 )
