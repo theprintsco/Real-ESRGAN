@@ -5,7 +5,6 @@ setup(
     version="0.1",
     author="theprintsco",
     author_email="contact@theprintscompany.com",
-    packages=["."],
     install_requires=[numpy, 
     opencv-python,
     Pillow,
