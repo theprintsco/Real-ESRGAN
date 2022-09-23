@@ -9,4 +9,5 @@ setup(
     url='https://github.com/sberbank-ai/Real-ESRGAN',
     description='Real-ESRGAN',
     install_requires=open('requirements.txt').read()
+    py_modules=['realesrgan', 'rrdbnet_arch', 'main']
 )
