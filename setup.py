@@ -5,9 +5,8 @@ setup(
     version='0.1.0',
     author='sberbank-ai',
     author_email='x@y.com',
-    scripts=['realesrgan.py','rrdbnet_arch.py', 'main.py'],
     url='https://github.com/sberbank-ai/Real-ESRGAN',
     description='Real-ESRGAN',
     install_requires=open('requirements.txt').read()
-    py_modules=['realesrgan.py', 'rrdbnet_arch.py', 'main.py']
+    py_modules=['realesrgan', 'rrdbnet_arch', 'main', 'arch_util', 'utils_sr']
 )
